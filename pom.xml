@@ -71,7 +71,8 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <mainClass>SCSDE_EurekaClient</mainClass>
+                    <!--<mainClass>SCSDEEurekaClient</mainClass>-->
+                    <mainClass>org.springframework.boot.loader.JarLauncher</mainClass>
                 </configuration>
             </plugin>
             <plugin>
